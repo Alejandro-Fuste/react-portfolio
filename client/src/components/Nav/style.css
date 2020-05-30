@@ -1,0 +1,21 @@
+header {
+	position: sticky;
+}
+
+img {
+	width: 80px;
+	height: 80px;
+}
+
+nav {
+	width: 100vw;
+}
+
+a {
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+i {
+	padding-right: 3px;
+}
