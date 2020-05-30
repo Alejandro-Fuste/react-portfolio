@@ -1,0 +1,23 @@
+.orlandoPic {
+	width: 25vw;
+	height: 30vh;
+}
+
+div .leftCol {
+	padding: 10px 10px 10px 20px;
+}
+
+textarea {
+	resize: none;
+}
+
+form .btn {
+	width: 150px;
+	color: white;
+	font-size: 20px;
+	margin-left: 15px;
+}
+
+form p {
+	margin-left: 15px;
+}
