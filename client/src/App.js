@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Parallax from './components/Parallax';
 import Pic1 from './assets/pic1.jpg';
+import Pic2 from './assets/pic2.jpg';
 
 class App extends Component {
 	render() {
@@ -15,6 +16,7 @@ class App extends Component {
 				<Nav />
 				<Parallax image={Pic1} />
 				<AboutMe />
+				<Parallax image={Pic2} />
 				<Portfolio />
 				<Contact />
 			</div>
