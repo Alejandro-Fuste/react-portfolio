@@ -15,32 +15,32 @@ const Contact = () => {
 				<div className="row justify-content-center">
 					<div className="col-sm-6 leftCol">
 						<div>
-							<p>
+							<p className="info">
 								<i className="fas fa-envelope" />Email:{' '}
 								<a href="mailto: afuste7@gmail.com">afuste7@gmail.com</a>
 							</p>
 						</div>
 
 						<div>
-							<p>
+							<p className="info">
 								<i className="fas fa-mobile" />Phone: <a href="tel:+14074962033">(407) 496-2033</a>
 							</p>
 						</div>
 
 						<div>
-							<p>
+							<p className="info">
 								<i className="fas fa-map-marker-alt" />Location: Orlando, FL
 							</p>
 						</div>
 
-						<div>
+						<div className="picDiv">
 							<img className="orlandoPic" src={Orlando} alt="Orlando" />
 						</div>
 					</div>
 
 					<div className="col-sm-6">
 						<form>
-							<p>Leave me a note:</p>
+							<p className="info">Leave me a note:</p>
 
 							<div className="form-group">
 								<div className="col-sm-10">

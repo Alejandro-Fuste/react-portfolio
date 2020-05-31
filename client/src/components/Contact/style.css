@@ -1,6 +1,7 @@
 .orlandoPic {
 	width: 25vw;
-	height: 30vh;
+	height: 40vh;
+	float: left;
 }
 
 div .leftCol {
@@ -24,4 +25,8 @@ form p {
 
 #contact {
 	padding: 30px 50px;
+}
+
+.info {
+	padding: 0;
 }
