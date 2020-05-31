@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Parallax from './components/Parallax';
 import Pic1 from './assets/pic1.jpg';
 import Pic2 from './assets/pic2.jpg';
+import Pic3 from './assets/pic3.jpg';
 
 class App extends Component {
 	render() {
@@ -18,6 +19,7 @@ class App extends Component {
 				<AboutMe />
 				<Parallax image={Pic2} />
 				<Portfolio />
+				<Parallax image={Pic3} />
 				<Contact />
 			</div>
 		);
