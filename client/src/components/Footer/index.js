@@ -4,7 +4,7 @@ const Footer = () => {
 	return (
 		<footer>
 			<a href="#">
-				<i class="fas fa-arrow-up" />To the top
+				<i className="fas fa-arrow-up" />To the top
 			</a>
 
 			<div>Put Social Media Icons Here</div>
