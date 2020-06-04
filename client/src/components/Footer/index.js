@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
 	return (
 		<footer>
-			<a href="#">
+			<a href="#home">
 				<i className="fas fa-arrow-up" />To the top
 			</a>
 
