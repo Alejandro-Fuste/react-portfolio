@@ -53,26 +53,3 @@ const Nav = () => {
 };
 
 export default Nav;
-
-{
-	/* <Navbar expand="md">
-			<Navbar.Brand href="#home">
-				<img
-					src={Logo}
-					width="30"
-					height="30"
-					className="d-inline-block align-top"
-					alt="Alejandro Fuste Logo"
-				/>
-			</Navbar.Brand>
-			<Navbar.Toggle aria-controls="basic-navbar-nav" />
-			<Navbar.Collapse id="basic-navbar-nav">
-				<Nav className="mr-auto">
-					<Nav.Link href="#home">Home</Nav.Link>
-					<Nav.Link href="#about">About</Nav.Link>
-					<Nav.Link href="#portfolio">Portfolio</Nav.Link>
-					<Nav.Link href="#contact">Contact</Nav.Link>
-				</Nav>
-			</Navbar.Collapse>
-		</Navbar> */
-}
