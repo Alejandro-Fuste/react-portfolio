@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from './style.css';
+import './style.css';
 // import Navbar from 'react-bootstrap/Navbar';
 import Logo from '../../assets/AF_logo_3.svg';
 

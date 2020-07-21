@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from './style.css';
+import './style.css';
 import Poddler from '../../assets/Poddler.png';
 import Burger from '../../assets/burger.png';
 import EmployeeTracker from '../../assets/empTrack1.png';

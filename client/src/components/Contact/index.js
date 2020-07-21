@@ -1,5 +1,5 @@
 import React from 'react';
-import Style from './style.css';
+import './style.css';
 import Orlando from '../../assets/orlando.jpg';
 
 const Contact = () => {
