@@ -1,6 +1,6 @@
 import React from 'react';
-import ProfilePic from '../../assets/profilePic.jpeg';
-import Style from './style.css';
+// import ProfilePic from '../../assets/profilePic.jpeg';
+import './style.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -12,16 +12,29 @@ const AboutMe = () => {
 					<h2 id="about">About Me</h2>
 					<p>
 						Hi, I’m Alejandro Fuste. I am a certified athletic trainer and teacher in Orlando, Florida.
-						<img className="profilePic" src={ProfilePic} alt="Profile" /> Although I am passionate about
-						athletic training and teaching, I have developed an urge for computer programming that can not
-						be satisfied with my current career. This passion was developed from finding solutions to
-						problems that arose from my job. For example, at my job, we collect forms that are only good for
-						one calendar year. I needed to find a way to know a month before the form would expire and which
-						forms had already expired. I was able to use the date function in google sheets to do for all of
-						our athletes forms. Finding a solution to this problem was extremely gratifying, and it sparked
-						my curiosity for coding. Since that day, I started to learn as much as I could about coding.
-						Along this journey, I discovered and enrolled in the full-stack web developer bootcamp at the
-						University of Central Florida.
+						<a
+							data-flickr-embed="true"
+							href="https://www.flickr.com/photos/189386561@N05/50137858372/in/dateposted-public/"
+							title="profilePic"
+						>
+							<img
+								src="https://live.staticflickr.com/65535/50137858372_587558f6fe_o.jpg"
+								width="152"
+								height="216"
+								alt="profilePic"
+								className="profilePic"
+							/>
+						</a>
+						<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8" /> Although I am
+						passionate about athletic training and teaching, I have developed an urge for computer
+						programming that can not be satisfied with my current career. This passion was developed from
+						finding solutions to problems that arose from my job. For example, at my job, we collect forms
+						that are only good for one calendar year. I needed to find a way to know a month before the form
+						would expire and which forms had already expired. I was able to use the date function in google
+						sheets to do for all of our athletes forms. Finding a solution to this problem was extremely
+						gratifying, and it sparked my curiosity for coding. Since that day, I started to learn as much
+						as I could about coding. Along this journey, I discovered and enrolled in the full-stack web
+						developer bootcamp at the University of Central Florida.
 					</p>
 
 					<p className="p2">
@@ -46,3 +59,7 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
+{
+	/* <img className="profilePic" src={ProfilePic} alt="Profile" /> */
+}
