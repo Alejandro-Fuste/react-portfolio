@@ -1,4 +1,4 @@
-# <img class="image" src="./client/src/assets/AF_logo_3.svg"/>Alejandro Fuste's Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# <img class="image" src="./client/src/assets/AF_logo_3.svg"/>.  Alejandro Fuste's Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 
