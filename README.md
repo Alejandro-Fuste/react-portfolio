@@ -1,4 +1,5 @@
-# MERN Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# <img class="image" src="./client/src/assets/AF_logo_3.svg"/>Alejandro Fuste's Portfolio [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 
 
 ## Description 
@@ -65,7 +66,7 @@ npm test
 
 ## Questions
 
-<img src="https://avatars2.githubusercontent.com/u/48495840?v=4" alt="avatar" style="border-radius: 16px" width="60"/>
+<img class="image" src="https://avatars2.githubusercontent.com/u/48495840?v=4" alt="avatar" style="border-radius: 16px" width="60"/>
 
 If you have any questions about the repo, open an issue or contact [Alejandro Fuste](https://github.com/ZepCap) directly through GitHub.
 
@@ -75,3 +76,14 @@ If you have any questions about the repo, open an issue or contact [Alejandro Fu
 
 ---
 
+<style>
+    .image {
+        float: left;
+        margin: 0px 10px 1px;
+    }
+
+    img {
+        float: right;
+        margin: 12px 80px 0px 0px;
+    }
+</style>
