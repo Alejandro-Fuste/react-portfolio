@@ -4,7 +4,7 @@
 
 ## Description 
 
-This is a MERN stack portfolio. Being that a portfolio is often the first point of contact for employers looking to fill a position or clients in need of a developer to complete a project, this is a clean and informative portfolio showcases my work as a developer. This portfolio uses a Mongo database and the Mongoose ORM. It also uses Express JS as the backend server. 
+This is a MERN stack portfolio. Being that a portfolio is often the first point of contact for employers looking to fill a position or clients in need of a developer to complete a project, this is a clean and informative portfolio showcases my work as a developer. This portfolio uses a Mongo database and the Mongoose ORM. It also uses Express JS as the backend server. You can see the deployed site by [clicking on this link!](https://af-react-portfolio.herokuapp.com/)
 
 ## User Story
 
@@ -76,7 +76,7 @@ If you have any questions about the repo, open an issue or contact [Alejandro Fu
 
 ---
 
-<style>
+[<style>
     .image {
         float: left;
         margin: 0px 10px 1px;
@@ -86,4 +86,4 @@ If you have any questions about the repo, open an issue or contact [Alejandro Fu
         float: right;
         margin: 12px 80px 0px 0px;
     }
-</style>
+</style>]
