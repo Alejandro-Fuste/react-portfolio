@@ -12,19 +12,13 @@ const AboutMe = () => {
 					<h2 id="about">About Me</h2>
 					<p>
 						Hi, I’m Alejandro Fuste. I am a certified athletic trainer and teacher in Orlando, Florida.
-						<a
-							data-flickr-embed="true"
-							href="https://www.flickr.com/photos/189386561@N05/50137858372/in/dateposted-public/"
-							title="profilePic"
-						>
-							<img
-								src="https://live.staticflickr.com/65535/50137858372_587558f6fe_o.jpg"
-								width="152"
-								height="216"
-								alt="profilePic"
-								className="profilePic"
-							/>
-						</a>
+						<img
+							src="https://live.staticflickr.com/65535/50137858372_587558f6fe_o.jpg"
+							width="152"
+							height="216"
+							alt="profilePic"
+							className="profilePic"
+						/>
 						<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8" /> Although I am
 						passionate about athletic training and teaching, I have developed an urge for computer
 						programming that can not be satisfied with my current career. This passion was developed from
