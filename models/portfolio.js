@@ -14,7 +14,7 @@ const portfolioSchema = new Schema({
 		type: String,
 		trim: true
 	},
-	image: {
+	imageLink: {
 		type: String,
 		trim: true
 	},
