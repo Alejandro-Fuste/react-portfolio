@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Container from './components/Container';
 import Nav from './components/Nav';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
@@ -14,7 +15,7 @@ import Pic4 from './assets/pic4.jpg';
 class App extends Component {
 	render() {
 		return (
-			<div className="App">
+			<Container>
 				<Nav />
 				<Parallax image={Pic1} />
 				<AboutMe />
@@ -24,7 +25,7 @@ class App extends Component {
 				<Contact />
 				<Parallax image={Pic4} />
 				<Footer />
-			</div>
+			</Container>
 		);
 	}
 }

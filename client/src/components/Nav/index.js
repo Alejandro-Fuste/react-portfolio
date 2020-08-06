@@ -6,10 +6,14 @@ import Logo from '../../assets/AF_logo_3.svg';
 const Nav = () => {
 	return (
 		<header>
-			<div className="container-fluid">
+			<div className="container-fluid" style={{ padding: '0px' }}>
 				<div className="row">
-					<div className="col-sm-12">
-						<nav className="navbar navbar-expand-md justify-content-end navbar-light" id="navbar">
+					<div className="col-sm-12" style={{ padding: '0px' }}>
+						<nav
+							className="navbar navbar-expand-md justify-content-end navbar-light"
+							id="navbar"
+							style={{ padding: '8px 0px' }}
+						>
 							<a className="navbar-brand mr-auto" href="#home">
 								<img src={Logo} alt="logo" id="logo" />
 							</a>

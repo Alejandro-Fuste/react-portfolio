@@ -6,4 +6,6 @@
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	min-height: 80vh;
+	width: 100vw;
+	box-sizing: border-box;
 }
