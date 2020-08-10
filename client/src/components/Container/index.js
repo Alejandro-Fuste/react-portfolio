@@ -1,8 +1,13 @@
 import React from 'react';
 import './style.css';
+import Container from 'react-bootstrap/Container';
 
-function Container(props) {
-	return <div className="container-fuild">{props.children}</div>;
+function container(props) {
+	return (
+		<Container className="container-fluid" fluid style={{ padding: '0px' }}>
+			{props.children}
+		</Container>
+	);
 }
 
-export default Container;
+export default container;

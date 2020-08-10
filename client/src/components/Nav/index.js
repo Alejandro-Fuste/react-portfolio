@@ -13,8 +13,8 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function nav() {
 	return (
-		<div>
-			<Navbar bg="light" expand="lg">
+		<Nav>
+			<Navbar expand="lg">
 				<Navbar.Brand href="#home">
 					<img src={Logo} alt="logo" id="logo" />
 				</Navbar.Brand>
@@ -36,7 +36,7 @@ function nav() {
 					</Nav>
 				</Navbar.Collapse>
 			</Navbar>
-		</div>
+		</Nav>
 	);
 }
 

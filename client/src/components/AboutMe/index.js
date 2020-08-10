@@ -1,14 +1,16 @@
 import React from 'react';
-// import ProfilePic from '../../assets/profilePic.jpeg';
 import './style.css';
+import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-const AboutMe = () => {
+import Card from 'react-bootstrap/Card';
+
+function AboutMe(props) {
 	return (
-		<div className="container-fluid" style={{ padding: '0px' }}>
+		<Container className="container-fluid" fluid>
 			<Row>
-				<Col md={12} style={{ padding: '0px' }}>
+				<Col md={12}>
 					<div className="aboutMe" id="me">
 						<h2 id="about">About Me</h2>
 						<p>
@@ -50,12 +52,8 @@ const AboutMe = () => {
 					</div>
 				</Col>
 			</Row>
-		</div>
+		</Container>
 	);
-};
+}
 
 export default AboutMe;
-
-{
-	/* <img className="profilePic" src={ProfilePic} alt="Profile" /> */
-}

@@ -1,18 +1,4 @@
-.col-sm-3 {
-	margin-right: 15px;
-}
-
-#scrollTarget {
-	overflow: scroll;
-	/* width: auto; */
-	margin-bottom: 25px;
-}
-
-div a .btn btn-primary {
-	background-color: rgb(24, 23, 23);
-}
-
-.portPics {
-	width: 20vw;
-	height: 40vh;
+nav.footerNav {
+	width: auto;
+	margin: 0 auto;
 }
