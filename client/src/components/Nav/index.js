@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './style.css';
@@ -12,9 +12,34 @@ import { faTh } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 function nav() {
+	const [ scrolling, setScrolling ] = useState();
+
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+	}, []);
+
+	const handleScroll = (e) => {
+		if (window.scrollY === 0 && scrolling === true) {
+			setScrolling(false);
+		} else if (window.scrollY !== 0 && scrolling !== true) {
+			setScrolling(true);
+		}
+	};
+
 	return (
 		<Nav>
-			<Navbar expand="lg">
+			<Navbar
+				expand="lg"
+				style={{
+					backgroundImage:
+						'linear-gradient( 110.3deg,  rgba(71, 71, 71,1) 8.8%, rgba(170, 169, 169,1) 95.1% )',
+					boxShadow: '0px 0px 40px -2px black',
+					position: scrolling ? 'fixed' : 'relative',
+					top: 0,
+					width: '100vw',
+					zIndex: 1
+				}}
+			>
 				<Navbar.Brand href="#home">
 					<img src={Logo} alt="logo" id="logo" />
 				</Navbar.Brand>
