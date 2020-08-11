@@ -31,8 +31,9 @@ function nav() {
 			<Navbar
 				expand="lg"
 				style={{
-					backgroundImage:
-						'linear-gradient( 110.3deg,  rgba(71, 71, 71,1) 8.8%, rgba(170, 169, 169,1) 95.1% )',
+					backgroundImage: scrolling
+						? 'linear-gradient( 110.3deg,  rgba(137, 141, 143,1) 8.8%, rgba(225, 229, 228,1) 95.1% )'
+						: 'linear-gradient(#FFFFFF)',
 					boxShadow: '0px 0px 40px -2px black',
 					position: scrolling ? 'fixed' : 'relative',
 					top: 0,
