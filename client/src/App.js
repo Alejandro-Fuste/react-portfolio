@@ -23,7 +23,7 @@ function App() {
 			<Portfolio />
 			<Parallax image={Pic3} />
 			<Contact />
-			<Parallax image={Pic4} />
+			{/* <Parallax image={Pic4} /> */}
 			<Footer />
 		</React.Fragment>
 	);
