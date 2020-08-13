@@ -26,7 +26,13 @@ img {
 
 /* nav links */
 
-a {
+a.nav-link {
 	letter-spacing: 2px;
 	font-size: 25px;
+}
+
+a.nav-link:hover {
+	border-bottom: 3px solid black;
+	/* font-size: 180%; */
+	margin: 8px;
 }
