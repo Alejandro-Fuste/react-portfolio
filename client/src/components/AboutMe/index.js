@@ -4,52 +4,62 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import Card from 'react-bootstrap/Card';
+import Card, { CardText } from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
 
 function AboutMe(props) {
 	return (
-		<Container className="container-fluid" fluid>
+		<Container className="containerAboutMe" fluid>
 			<Row>
 				<Col md={12}>
-					<div className="aboutMe" id="me">
-						<h2 id="about">About Me</h2>
-						<p>
-							Hi, I’m Alejandro Fuste. I am a certified athletic trainer and teacher in Orlando, Florida.
-							<img
+					<h2 id="about">About Me</h2>
+				</Col>
+			</Row>
+			<Row className="aboutMeRow">
+				<Col md={5}>
+					<Card style={{ width: '100%' }}>
+						<Card.Body className="picContainer">
+							<Image
 								src="https://live.staticflickr.com/65535/50137858372_587558f6fe_o.jpg"
-								width="152"
-								height="216"
+								roundedCircle
 								alt="profilePic"
 								className="profilePic"
 							/>
-							<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8" /> Although I
-							am passionate about athletic training and teaching, I have developed an urge for computer
-							programming that can not be satisfied with my current career. This passion was developed
-							from finding solutions to problems that arose from my job. For example, at my job, we
-							collect forms that are only good for one calendar year. I needed to find a way to know a
-							month before the form would expire and which forms had already expired. I was able to use
-							the date function in google sheets to do for all of our athletes forms. Finding a solution
-							to this problem was extremely gratifying, and it sparked my curiosity for coding. Since that
-							day, I started to learn as much as I could about coding. Along this journey, I discovered
-							and enrolled in the full-stack web developer bootcamp at the University of Central Florida.
-						</p>
+						</Card.Body>
+						<Card.Body className="nameContainer">
+							<Card.Title className="name">Alejandro Fuste </Card.Title>
+							<Card.Subtitle className="mb-2 text-muted">Web Developer | MERN Stack</Card.Subtitle>
+						</Card.Body>
 
-						<p className="p2">
-							This portfolio contains the work that I have recently completed in the coding bootcamp. We
-							started the bootcamp with the basics of front-end development such as HTML, CSS, Git, and
-							Github. As we have progressed, we then moved on to Javascript, JQuery, DOM Manipulation, and
-							AJAX. The portfolio section of this website contains some of my latest work. This section
-							reflects my chronological progression through the course, so as your scroll to the right you
-							will work that was completed earlier in the program.
-						</p>
-
-						<p className="p3">
-							Finally, what I want you get from my portfolio is to not only get a sense of my skills, but
-							to also to understand that I love everything about coding. I love the front-end and the
-							back-end of web development. I could easily spend all-day working on a project or trying to
-							find and resolve a bug. That’s what I want you to know...I love this stuff!
-						</p>
-					</div>
+						<Card.Body>
+							<h5>Skills</h5>
+							<Card.Text>
+								<ul>
+									<li>Test</li>
+									<li>Test</li>
+								</ul>
+							</Card.Text>
+						</Card.Body>
+					</Card>
+				</Col>
+				<Col md={7}>
+					<Card style={{ width: '100%' }}>
+						<Card.Body>
+							<Card.Title>Background</Card.Title>
+							<Card.Text>
+								I definitely got the coding bug! During a ten-hour workday, I was trying to solve a
+								problem I had at work. I was able to solved this problem using the function feature of
+								Google Sheets. I would have never thought solving this problem would give me such
+								satisfaction. In that moment, I knew that I needed to find out more about coding. I
+								continued to find out about coding and programming languages. After completing my first
+								Python exercise tutorial, I was hooked; I found my passion. I then completed more Python
+								tutorial exercises, but that wasn't enough. I needed to know how it all worked, so I
+								moved onto the core web development languages. From there, I became a full-stack web
+								developer by completing the web development certificate at the University of Central
+								Florida.
+							</Card.Text>
+						</Card.Body>
+					</Card>
 				</Col>
 			</Row>
 		</Container>
