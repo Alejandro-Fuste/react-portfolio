@@ -8,7 +8,7 @@ This is a MERN stack portfolio. Being that a portfolio is often the first point 
 
 ## User Story
 
-```
+```md
 
 AS A web developer
 
