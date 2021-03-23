@@ -44,10 +44,10 @@ const projects = [
 		repoLink: 'https://github.com/Alejandro-Fuste/Template_Engine'
 	},
 	{
-		name: 'README Generator',
+		name: 'NodeJS README Generator',
 		description: 'NodeJS App',
 		imageLink: 'https://live.staticflickr.com/65535/50137079623_07ec4291f7_o.png',
-		repoLink: 'https://github.com/Alejandro-Fuste/Read_Me'
+		repoLink: 'https://github.com/Alejandro-Fuste/NodeJS_README'
 	},
 	{
 		name: 'Weather Dashboard',
@@ -62,6 +62,13 @@ const projects = [
 		imageLink: 'https://live.staticflickr.com/65535/50137858352_5526d94b84_o.png',
 		deployedLink: 'https://alejandro-fuste.github.io/Scheduler/',
 		repoLink: 'https://github.com/Alejandro-Fuste/Scheduler'
+	},
+	{
+		name: 'Quiz Game',
+		description: 'Javascript jQuery App',
+		imageLink: '',
+		deployedLink: 'https://alejandro-fuste.github.io/Quiz_Game/',
+		repoLink: 'https://github.com/Alejandro-Fuste/Quiz_Game'
 	},
 	{
 		name: 'Password Generator',
