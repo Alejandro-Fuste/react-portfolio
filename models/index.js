@@ -25,23 +25,23 @@ const projects = [
 		repoLink: 'https://github.com/Alejandro-Fuste/burger'
 	},
 	{
-		name: 'Employee Tracker',
-		description: 'Node & MySQL App',
+		name: 'MySQL Employee Tracker',
+		description: 'NodeJS & MySQL App',
 		imageLink: 'https://live.staticflickr.com/65535/50137623286_633bf0207d_o.png',
-		repoLink: 'https://github.com/Alejandro-Fuste/employee-tracker'
+		repoLink: 'https://github.com/Alejandro-Fuste/MySQL_employee-tracker'
 	},
 	{
-		name: 'Note Taker',
-		description: 'Express & Heroku App',
+		name: 'ExpressJS Note Taker',
+		description: 'ExpressJS App',
 		imageLink: 'https://live.staticflickr.com/65535/50137858532_3ce5a7a127_o.png',
 		deployedLink: 'https://zepnote-taker.herokuapp.com/',
-		repoLink: 'https://github.com/Alejandro-Fuste/note-taker'
+		repoLink: 'https://github.com/Alejandro-Fuste/ExpressJS_note-taker'
 	},
 	{
 		name: 'TDD Template Engine',
 		description: 'NodeJS, Object-Oriented Programming, and Test-Driven Development App',
 		imageLink: 'https://live.staticflickr.com/65535/50137623116_613ecf8813_o.png',
-		repoLink: 'https://github.com/Alejandro-Fuste/Template_Engine'
+		repoLink: 'https://github.com/Alejandro-Fuste/TDD_TemplateEngine'
 	},
 	{
 		name: 'NodeJS README Generator',
