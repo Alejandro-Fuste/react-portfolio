@@ -38,8 +38,8 @@ const projects = [
 		repoLink: 'https://github.com/Alejandro-Fuste/note-taker'
 	},
 	{
-		name: 'Template Engine',
-		description: 'Node & OPP App',
+		name: 'TDD Template Engine',
+		description: 'NodeJS, Object-Oriented Programming, and Test-Driven Development App',
 		imageLink: 'https://live.staticflickr.com/65535/50137623116_613ecf8813_o.png',
 		repoLink: 'https://github.com/Alejandro-Fuste/Template_Engine'
 	},
