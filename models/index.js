@@ -18,11 +18,11 @@ const projects = [
 		repoLink: 'https://github.com/yarocruz/project-2'
 	},
 	{
-		name: 'Burger',
-		description: 'MVC & Handlebars App',
+		name: 'MVC Burger',
+		description: 'MVC, Sequelize, & Handlebars App',
 		imageLink: 'https://live.staticflickr.com/65535/50137079753_bc923bb87b_o.png',
 		deployedLink: 'https://zep-burger.herokuapp.com/',
-		repoLink: 'https://github.com/Alejandro-Fuste/burger'
+		repoLink: 'https://github.com/Alejandro-Fuste/MVC_BurgerApp'
 	},
 	{
 		name: 'MySQL Employee Tracker',
