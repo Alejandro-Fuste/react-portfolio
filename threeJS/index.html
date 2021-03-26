@@ -13,10 +13,12 @@
 		<script>
 			// Our Javascript will go here.
             const scene = new THREE.Scene();
+            scene.background = new THREE.Color('#4f4b45');
             const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
             const renderer = new THREE.WebGLRenderer();
             renderer.setSize( window.innerWidth, window.innerHeight );
+            
             document.body.appendChild( renderer.domElement );
 
             const geometry = new THREE.BoxGeometry();
@@ -37,24 +39,24 @@
             animate();
 
             var tanFOV = Math.tan( ( ( Math.PI / 180 ) * camera.fov / 2 ) );
-var windowHeight = window.innerHeight;
+            var windowHeight = window.innerHeight;
 
             window.addEventListener( 'resize', onWindowResize, false );
 
-function onWindowResize( event ) {
+            function onWindowResize( event ) {
 
-    camera.aspect = window.innerWidth / window.innerHeight;
+                camera.aspect = window.innerWidth / window.innerHeight;
     
-    // adjust the FOV
-    camera.fov = ( 360 / Math.PI ) * Math.atan( tanFOV * ( window.innerHeight / windowHeight ) );
+                // adjust the FOV
+                camera.fov = ( 360 / Math.PI ) * Math.atan( tanFOV * ( window.innerHeight / windowHeight ) );
     
-    camera.updateProjectionMatrix();
-    camera.lookAt( scene.position );
+                camera.updateProjectionMatrix();
+                camera.lookAt( scene.position );
 
-    renderer.setSize( window.innerWidth, window.innerHeight );
-    renderer.render( scene, camera );
+                renderer.setSize( window.innerWidth, window.innerHeight );
+                renderer.render( scene, camera );
     
-}
+            }
 		</script>
 	</body>
 </html>
