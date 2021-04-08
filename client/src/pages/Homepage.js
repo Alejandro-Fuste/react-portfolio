@@ -1,7 +1,13 @@
 import React from 'react';
 
-import Text from '../components/ThreeText';
+import Title from '../components/ThreeText';
 
-const Homepage = () => {};
+const Homepage = () => {
+	return (
+		<React.Fragment>
+			<Title />
+		</React.Fragment>
+	);
+};
 
 export default Homepage;
