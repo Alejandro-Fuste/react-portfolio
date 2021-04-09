@@ -3,10 +3,10 @@ import { Text } from '@react-three/drei';
 
 import './style.css';
 
-function Title() {
+function Title({ name }) {
 	return (
 		<Text className="text" material-toneMapped={false}>
-			Developer
+			{name}
 		</Text>
 	);
 }

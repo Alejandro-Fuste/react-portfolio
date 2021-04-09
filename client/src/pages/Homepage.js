@@ -5,7 +5,7 @@ import Title from '../components/ThreeText';
 const Homepage = () => {
 	return (
 		<React.Fragment>
-			<Title />
+			<Title name="Developer" />
 		</React.Fragment>
 	);
 };
