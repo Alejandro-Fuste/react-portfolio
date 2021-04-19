@@ -15,12 +15,15 @@ import Nav from './components/Nav';
 // import Footer from './components/Footer';
 
 // import Title from './components/ThreeText';
+import Box from './components/Box';
 
 function App() {
 	return (
 		<React.Fragment>
 			<Nav />
-			<Canvas />
+			<Canvas>
+				<Box />
+			</Canvas>
 			{/* <Homepage /> */}
 			{/* <Parallax image={Pic1} />
 			<AboutMe />
