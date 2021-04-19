@@ -1,5 +1,5 @@
 import React from 'react';
-import { Canvas } from 'react-three-fiber';
+import { Canvas } from '@react-three/fiber';
 import './App.css';
 import Nav from './components/Nav';
 
