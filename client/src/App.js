@@ -14,15 +14,13 @@ import Nav from './components/Nav';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
 
-import Title from './components/ThreeText';
+// import Title from './components/ThreeText';
 
 function App() {
 	return (
 		<React.Fragment>
 			<Nav />
-			<Canvas concurrent shadowMap camera={{ position: [ 0, 0, 5 ], fov: 70 }}>
-				<Title name="Developer" />
-			</Canvas>
+			<Canvas />
 			{/* <Homepage /> */}
 			{/* <Parallax image={Pic1} />
 			<AboutMe />
