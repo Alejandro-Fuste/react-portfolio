@@ -9,3 +9,5 @@ function Box(props) {
 		</mesh>
 	);
 }
+
+export default Box;
