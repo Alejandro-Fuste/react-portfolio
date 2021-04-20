@@ -1,5 +1,6 @@
 import React from 'react';
 import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Stars } from '@react-three/drei';
 import './App.css';
 import Nav from './components/Nav';
 
@@ -22,6 +23,10 @@ function App() {
 		<React.Fragment>
 			<Nav />
 			<Canvas>
+				<OrbitControls />
+				<Stars />
+				<ambientLight intensity={0.5} />
+				<spotLight position={[ 10, 15, 10 ]} angle={0.3} />
 				<Box />
 			</Canvas>
 			{/* <Homepage /> */}

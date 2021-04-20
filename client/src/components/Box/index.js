@@ -1,7 +1,9 @@
-import React from 'react';
-// import { Canvas } from '@react-three/fiber';
+import React, { useRef } from 'react';
+import { useFrame } from '@react-three/fiber';
 
 function Box(props) {
+	useFrame(() => (mesh.current.rotation.x += 0.01));
+
 	return (
 		<mesh>
 			<boxBufferGeometry attach="geometry" />
