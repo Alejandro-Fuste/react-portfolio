@@ -16,7 +16,8 @@ import Nav from './components/Nav';
 // import Footer from './components/Footer';
 
 // import Title from './components/ThreeText';
-import Box from './components/Box';
+// import Box from './components/Box';
+import Homepage from './pages/Homepage';
 
 function App() {
 	return (
@@ -27,7 +28,8 @@ function App() {
 				<Stars />
 				<ambientLight intensity={0.5} />
 				<spotLight position={[ 10, 15, 10 ]} angle={0.3} />
-				<Box />
+				{/* <Box /> */}
+				<Homepage />
 			</Canvas>
 			{/* <Homepage /> */}
 			{/* <Parallax image={Pic1} />
