@@ -21,7 +21,7 @@ import Homepage from './pages/Homepage';
 
 function App() {
 	return (
-		<React.Fragment>
+		<>
 			<Nav />
 			<Canvas>
 				<OrbitControls />
@@ -40,7 +40,7 @@ function App() {
 			<Contact />
 			{/* <Parallax image={Pic4} /> */}
 			{/* <Footer /> */}
-		</React.Fragment>
+		</>
 	);
 }
 
