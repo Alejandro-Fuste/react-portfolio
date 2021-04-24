@@ -8,7 +8,7 @@ function Box(props) {
 	return (
 		<mesh ref={mesh}>
 			<boxBufferGeometry attach="geometry" scale={[ 4, 5, 6 ]} />
-			<meshLambertMaterial attach="material" color="hotpink" />
+			<meshLambertMaterial attach="material" color="#d9b377" />
 		</mesh>
 	);
 }
