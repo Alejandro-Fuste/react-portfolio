@@ -1,38 +1,45 @@
 /*** Navigation Styling ***/
 
 nav {
-	width: 100vw;
-	margin: 0px;
+  width: 100vw;
+  margin: 0px;
+  background: rgb(32, 30, 32);
+  background: linear-gradient(
+    90deg,
+    rgba(32, 30, 32, 1) 0%,
+    rgba(47, 44, 47, 1) 39%,
+    rgba(53, 59, 60, 1) 100%
+  );
 }
 
 nav.navbar {
-	width: 100vw;
+  width: 100vw;
 }
 
 /* logo */
 
 img {
-	width: 7vw;
-	height: 7vh;
-	margin-left: 15px;
+  width: 7vw;
+  height: 7vh;
+  margin-left: 15px;
 }
 
 /* font awesome icons */
 
 .icon {
-	margin-right: 5px;
-	color: black;
+  margin-right: 5px;
+  color: black;
 }
 
 /* nav links */
 
 a.nav-link {
-	letter-spacing: 2px;
-	font-size: 25px;
+  letter-spacing: 2px;
+  font-size: 25px;
 }
 
 a.nav-link:hover {
-	border-bottom: 3px solid black;
-	/* font-size: 180%; */
-	margin: 8px;
+  border-bottom: 3px solid black;
+  /* font-size: 180%; */
+  margin: 8px;
 }
