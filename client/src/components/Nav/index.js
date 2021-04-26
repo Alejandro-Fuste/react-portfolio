@@ -35,16 +35,16 @@ function nav() {
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
 				<Navbar.Collapse id="basic-navbar-nav">
 					<Nav className="ml-auto">
-						<Nav.Link href="#home" style={{ color: 'black' }}>
+						<Nav.Link href="#home">
 							<FontAwesomeIcon icon={faHome} className="icon" />Home
 						</Nav.Link>
-						<Nav.Link href="#about" style={{ color: 'black' }}>
+						<Nav.Link href="#about">
 							<FontAwesomeIcon icon={faUser} className="icon" />About
 						</Nav.Link>
-						<Nav.Link href="#portfolio" style={{ color: 'black' }}>
+						<Nav.Link href="#portfolio">
 							<FontAwesomeIcon icon={faTh} className="icon" />Portfolio
 						</Nav.Link>
-						<Nav.Link href="#contact" style={{ color: 'black' }}>
+						<Nav.Link href="#contact">
 							<FontAwesomeIcon icon={faEnvelope} className="icon" />Contact
 						</Nav.Link>
 					</Nav>
