@@ -10,6 +10,7 @@ nav {
     rgba(47, 44, 47, 1) 39%,
     rgba(53, 59, 60, 1) 100%
   );
+  color: #969797;
 }
 
 nav.navbar {
@@ -27,20 +28,21 @@ img {
 
 /* font awesome icons */
 
-.icon {
+/* .icon {
   margin-right: 5px;
-  color: black;
-}
+  color: #969797;
+} */
 
 /* nav links */
 
 a.nav-link {
   letter-spacing: 2px;
   font-size: 25px;
+  /* color: #969797; */
 }
 
 a.nav-link:hover {
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #969797;
   /* font-size: 180%; */
   margin: 8px;
 }
