@@ -14,6 +14,7 @@ import Nav from './components/Nav';
 // import Portfolio from './components/Portfolio';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
+import Container from './components/Container'
 
 // import Title from './components/ThreeText';
 // import Box from './components/Box';
@@ -21,7 +22,7 @@ import Homepage from './pages/Homepage';
 
 function App() {
 	return (
-		<>
+		<Container>
 			<Nav />
 			<Canvas>
 				<OrbitControls />
@@ -39,7 +40,7 @@ function App() {
 			<Contact />
 			{/* <Parallax image={Pic4} /> */}
 			{/* <Footer /> */}
-		</>
+		</Container>
 	);
 }
 
