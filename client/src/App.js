@@ -24,7 +24,7 @@ function App() {
 	return (
 		<Container>
 			<Nav />
-			<Canvas className='here it is' style={{height: '60vh', width: '50vw'}}>
+			<Canvas style={{height: '60vh', width: '50vw', right: '-50%'}}>
 				<OrbitControls />
 				{/* <Stars /> */}
 				<ambientLight intensity={0.5} />
