@@ -1,6 +1,4 @@
 import React from 'react';
-import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Stars } from '@react-three/drei';
 import './App.css';
 import Nav from './components/Nav';
 
@@ -15,23 +13,13 @@ import Nav from './components/Nav';
 // import Contact from './components/Contact';
 // import Footer from './components/Footer';
 import Container from './components/Container'
-
-// import Title from './components/ThreeText';
-// import Box from './components/Box';
 import Homepage from './pages/Homepage';
 
 function App() {
 	return (
 		<Container>
 			<Nav />
-			<Canvas style={{height: '60vh', width: '50vw', right: '-50%'}}>
-				<OrbitControls />
-				{/* <Stars /> */}
-				<ambientLight intensity={0.5} />
-				<spotLight position={[ 10, 15, 10 ]} angle={0.3} />
-				<Homepage />
-			</Canvas>
-			{/* <Homepage /> */}
+			<Homepage />
 			{/* <Parallax image={Pic1} />
 			<AboutMe />
 			<Parallax image={Pic2} />
